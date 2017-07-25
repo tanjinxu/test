@@ -27,6 +27,6 @@ public class test {
         for (int i = 1; i <= k; i++) {
             lotterOdds = lotterOdds.multiply(BigInteger.valueOf(n - i + 1)).divide(BigInteger.valueOf(1));
         }
-        System.out.println(lotterOdds);// jjjjjxxxxxxxxxxxxx
+        System.out.println(lotterOdds);// jjjjjxxxxxxxxxxxxx@@
     }
 }
